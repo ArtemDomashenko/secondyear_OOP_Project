@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\university\\year 2\\sem 2\\OOP\\project\\Project_WPF\\",
+  "WorkspaceRootPath": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|c:\\users\\qarte\\onedrive - atlantic tu\\university\\year 2\\sem 2\\oop\\project\\project_wpf\\project_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|solutionrelative:project_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project_WPF\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|c:\\users\\qarte\\onedrive - atlantic tu\\university\\year 2\\sem 2\\oop\\project\\project_wpf\\project_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|solutionrelative:project_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\App.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project_WPF\\App.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project_WPF\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +30,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\university\\year 2\\sem 2\\OOP\\project\\Project_WPF\\Project_WPF\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Project_WPF\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\university\\year 2\\sem 2\\OOP\\project\\Project_WPF\\Project_WPF\\MainWindow.xaml",
-              "RelativeToolTip": "Project_WPF\\MainWindow.xaml",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\App.xaml",
+              "RelativeDocumentMoniker": "Project_WPF\\App.xaml",
+              "ToolTip": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\App.xaml",
+              "RelativeToolTip": "Project_WPF\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-15T20:21:25.999Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-15T20:34:58.785Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Project_WPF\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\MainWindow.xaml",
+              "RelativeToolTip": "Project_WPF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-15T20:21:25.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\university\\year 2\\sem 2\\OOP\\project\\Project_WPF\\Project_WPF\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Project_WPF\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\university\\year 2\\sem 2\\OOP\\project\\Project_WPF\\Project_WPF\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\MainWindow.xaml.cs",
               "RelativeToolTip": "Project_WPF\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T20:21:25.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-15T20:21:25.554Z"
             }
           ]
         }

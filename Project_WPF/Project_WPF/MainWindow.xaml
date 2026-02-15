@@ -1,12 +1,55 @@
 ﻿<Window x:Class="Project_WPF.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Project_WPF"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="Project_WPF" WindowStartupLocation="CenterScreen">
+    <Window.DataContext>
+        <local:MainViewModel/>
+    </Window.DataContext>
+
+    <Grid x:Name="grdRoot" Margin="16">
+        <TabControl>
+            <TabItem Header="Analyze">
+                <Grid x:Name="grdAnalyze" Margin="12">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <StackPanel Orientation="Horizontal">
+                        <TextBox x:Name="tbxUrl" Width="680"
+                                 Text="{Binding Url, UpdateSourceTrigger=PropertyChanged}"/>
+                        <Button x:Name="btnAnalyze"
+                                Style="{StaticResource PrimaryButton}"
+                                Content="Analyze"
+                                Command="{Binding AnalyzeCommand}"/>
+                    </StackPanel>
+
+                    <TextBlock x:Name="tblkStatus" Grid.Row="1" Margin="0,10,0,0"
+                               Text="{Binding Status}" Opacity="0.85"/>
+
+                    <Border Grid.Row="2" Style="{StaticResource Card}">
+                        <TextBlock Text="Deploy 1: UI skeleton." Opacity="0.75"/>
+                    </Border>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="History">
+                <Grid x:Name="grdHistory" Margin="12">
+                    <Border Style="{StaticResource Card}">
+                        <TextBlock Text="Deploy 1: empty history." Opacity="0.75"/>
+                    </Border>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Settings">
+                <Grid x:Name="grdSettings" Margin="12">
+                    <Border Style="{StaticResource Card}">
+                        <TextBlock Text="Deploy 1: settings later." Opacity="0.75"/>
+                    </Border>
+                </Grid>
+            </TabItem>
+        </TabControl>
     </Grid>
 </Window>

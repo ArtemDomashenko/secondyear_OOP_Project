@@ -1,0 +1,7 @@
+C:\Users\qarte\OneDrive - Atlantic TU\Documents\GitHub\secondyear_OOP_Project\Project_WPF\Project_WPF\obj\Debug\Project_WPF.csproj.AssemblyReference.cache
+C:\Users\qarte\OneDrive - Atlantic TU\Documents\GitHub\secondyear_OOP_Project\Project_WPF\Project_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\qarte\OneDrive - Atlantic TU\Documents\GitHub\secondyear_OOP_Project\Project_WPF\Project_WPF\obj\Debug\App.g.cs
+C:\Users\qarte\OneDrive - Atlantic TU\Documents\GitHub\secondyear_OOP_Project\Project_WPF\Project_WPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\qarte\OneDrive - Atlantic TU\Documents\GitHub\secondyear_OOP_Project\Project_WPF\Project_WPF\obj\Debug\Project_WPF_MarkupCompile.cache
+C:\Users\qarte\OneDrive - Atlantic TU\Documents\GitHub\secondyear_OOP_Project\Project_WPF\Project_WPF\obj\Debug\Project_WPF_MarkupCompile.lref
+C:\Users\qarte\OneDrive - Atlantic TU\Documents\GitHub\secondyear_OOP_Project\Project_WPF\Project_WPF\obj\Debug\App.baml
