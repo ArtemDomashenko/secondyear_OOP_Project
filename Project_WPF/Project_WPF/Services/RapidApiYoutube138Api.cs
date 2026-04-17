@@ -1,6 +1,10 @@
-﻿using System;
+using System;
+using System.Net.Http;
+using System.Text.Json;
+using System.Threading.Tasks;
+using Project_WPF.Models;
 
-public class Class1
+namespace Project_WPF.Services
 {
     public class RapidApiYoutube138Api : IVideoApi
     {
@@ -29,7 +33,7 @@ public class Class1
                     var body = await resp.Content.ReadAsStringAsync();
 
                     if (!resp.IsSuccessStatusCode)
-                        throw new Exception(((int)resp.StatusCode) + " " + resp.ReasonPhrase + ". " + TryMessage(body));
+                        throw new Exception((int)resp.StatusCode + " " + resp.ReasonPhrase + ". " + TryMessage(body));
 
                     return Parse(body);
                 }
@@ -46,8 +50,8 @@ public class Class1
             var gl = string.IsNullOrWhiteSpace(_settings.Gl) ? "US" : _settings.Gl.Trim();
 
             return baseUrl + "/video/details/?id=" + Uri.EscapeDataString(videoId)
-                          + "&hl=" + Uri.EscapeDataString(hl)
-                          + "&gl=" + Uri.EscapeDataString(gl);
+                           + "&hl=" + Uri.EscapeDataString(hl)
+                           + "&gl=" + Uri.EscapeDataString(gl);
         }
 
         private VideoInfo Parse(string json)
@@ -55,35 +59,40 @@ public class Class1
             using (var doc = JsonDocument.Parse(json))
             {
                 var root = doc.RootElement;
-
                 var info = new VideoInfo();
-                info.Title = root.TryGetProperty("title", out var t) ? (t.GetString() ?? "(no title)") : "(no title)";
 
-                // views: root.stats.views
-                if (root.TryGetProperty("stats", out var stats) && stats.TryGetProperty("views", out var v))
+                info.Title = root.TryGetProperty("title", out var t)
+                    ? (t.GetString() ?? "(no title)")
+                    : "(no title)";
+
+                if (root.TryGetProperty("stats", out var stats) &&
+                    stats.TryGetProperty("views", out var v))
                 {
-                    if (v.ValueKind == JsonValueKind.Number) info.Views = v.GetInt64();
-                    else long.TryParse(v.GetString(), out info.Views);
+                    if (v.ValueKind == JsonValueKind.Number)
+                        info.Views = v.GetInt64();
+                    else { long tmp; long.TryParse(v.GetString(), out tmp); info.Views = tmp; }
                 }
 
-                // publishedDate (string)
                 info.PublishedUtc = DateTime.UtcNow;
                 if (root.TryGetProperty("publishedDate", out var pd))
                 {
                     var s = pd.GetString();
                     if (!string.IsNullOrWhiteSpace(s))
-                        info.PublishedUtc = DateTime.Parse(s, null, System.Globalization.DateTimeStyles.AdjustToUniversal);
+                        info.PublishedUtc = DateTime.Parse(s, null,
+                            System.Globalization.DateTimeStyles.AdjustToUniversal);
                 }
 
-                // thumbnails array -> take last
-                info.ThumbnailUrl = "pack://application:,,,/Assets/placeholder.png";
-                if (root.TryGetProperty("thumbnails", out var thumbs) && thumbs.ValueKind == JsonValueKind.Array && thumbs.GetArrayLength() > 0)
+                info.ThumbnailUrl = "";
+                if (root.TryGetProperty("thumbnails", out var thumbs) &&
+                    thumbs.ValueKind == JsonValueKind.Array &&
+                    thumbs.GetArrayLength() > 0)
                 {
                     var last = thumbs[thumbs.GetArrayLength() - 1];
                     if (last.TryGetProperty("url", out var u))
                     {
                         var url = u.GetString();
-                        if (!string.IsNullOrWhiteSpace(url)) info.ThumbnailUrl = url;
+                        if (!string.IsNullOrWhiteSpace(url))
+                            info.ThumbnailUrl = url;
                     }
                 }
 

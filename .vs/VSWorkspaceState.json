@@ -1,6 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Project_WPF",
+    "\\Project_WPF\\Project_WPF",
+    "\\Project_WPF\\Project_WPF\\Models",
+    "\\Project_WPF\\Project_WPF\\Mvvm",
+    "\\Project_WPF\\Project_WPF\\Properties",
+    "\\Project_WPF\\Project_WPF\\Services"
   ],
+  "SelectedNode": "\\Project_WPF\\Project_WPF.sln",
   "PreviewInSolutionExplorer": false
 }

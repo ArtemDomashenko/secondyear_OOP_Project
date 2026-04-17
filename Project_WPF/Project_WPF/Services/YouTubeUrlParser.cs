@@ -1,6 +1,7 @@
-﻿using System;
+using System;
+using System.Text.RegularExpressions;
 
-public class Class1
+namespace Project_WPF.Services
 {
     public static class YouTubeUrlParser
     {
@@ -15,7 +16,6 @@ public class Class1
 
             input = input.Trim();
 
-            // Raw id
             if (Regex.IsMatch(input, @"^[a-zA-Z0-9_-]{6,}$"))
                 return input;
 

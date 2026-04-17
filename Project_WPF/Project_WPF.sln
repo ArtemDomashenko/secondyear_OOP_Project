@@ -5,19 +5,7 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project_WPF", "Project_WPF\Project_WPF.csproj", "{F036F95B-A2C8-4739-AE2F-849D6D0C5737}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{9C2D138F-71BA-4323-B9BA-DB489D2070F7}"
-	ProjectSection(SolutionItems) = preProject
-		CachedVideoApi.cs = CachedVideoApi.cs
-		IVideoApi.cs = IVideoApi.cs
-		RapidApiYoutube138Api.cs = RapidApiYoutube138Api.cs
-		SettingsService.cs = SettingsService.cs
-		YouTubeUrlParser.cs = YouTubeUrlParser.cs
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F391EFB8-48F1-4940-82EE-ECD53E5E2019}"
-	ProjectSection(SolutionItems) = preProject
-		App.xaml.cs = App.xaml.cs
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

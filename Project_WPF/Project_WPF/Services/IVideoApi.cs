@@ -1,6 +1,7 @@
-﻿using System;
+using System.Threading.Tasks;
+using Project_WPF.Models;
 
-public class Class1
+namespace Project_WPF.Services
 {
     public interface IVideoApi
     {
