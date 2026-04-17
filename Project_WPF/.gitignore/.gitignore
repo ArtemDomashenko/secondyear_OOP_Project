@@ -1,0 +1,75 @@
+# =========================
+# Visual Studio / Rider
+# =========================
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Build results
+# =========================
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# =========================
+# .NET
+# =========================
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# =========================
+# Debug / Release
+# =========================
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+ARM/
+ARM64/
+
+# =========================
+# NuGet
+# =========================
+*.nupkg
+# Uncomment if you want to ignore NuGet packages (NOT recommended)
+# packages/
+
+# =========================
+# Test results
+# =========================
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# =========================
+# Resharper / Rider
+# =========================
+_ReSharper*/
+*.DotSettings.user
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# =========================
+# Logs & temp
+# =========================
+*.log
+*.tmp
+*.bak
+*.swp
+*.cache
+
+# =========================
+# Publish
+# =========================
+publish/
