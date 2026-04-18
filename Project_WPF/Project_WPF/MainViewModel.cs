@@ -1,9 +1,8 @@
 ﻿using Project_WPF.Mvvm;
+using Project_WPF.Models;
+using Project_WPF.Services;
 using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Project_WPF
@@ -13,7 +12,6 @@ namespace Project_WPF
         private readonly AppSettings _settings;
         private readonly IVideoApi _api;
 
-        
         private string _apiKey;
         public string ApiKey { get { return _apiKey; } set { Set(ref _apiKey, value); } }
 
@@ -41,11 +39,10 @@ namespace Project_WPF
             SettingsService.Save(_settings);
         }
 
-        // Analyze tab
         private string _url = "";
         public string Url { get { return _url; } set { Set(ref _url, value); } }
 
-        private string _status = "Deploy 2: API works (no DB yet).";
+        private string _status = "Enter a YouTube URL and click Analyze.";
         public string Status { get { return _status; } set { Set(ref _status, value); } }
 
         private VideoInfo _lastResult;
@@ -53,8 +50,8 @@ namespace Project_WPF
 
         public RelayCommand AnalyzeCommand { get; private set; }
 
-        // History (in memory)
         public ObservableCollection<VideoInfo> Items { get; private set; }
+
         private VideoInfo _selected;
         public VideoInfo Selected { get { return _selected; } set { Set(ref _selected, value); } }
 
@@ -89,7 +86,6 @@ namespace Project_WPF
                 SaveSettings();
 
                 var videoId = YouTubeUrlParser.GetVideoId(Url);
-
                 var info = await _api.GetVideoInfoAsync(videoId);
                 info.Url = Url;
                 info.VideoId = videoId;
@@ -98,7 +94,7 @@ namespace Project_WPF
                 Items.Insert(0, info);
                 Selected = info;
 
-                Status = "Loaded from API ✅ (DB in Deploy 3)";
+                Status = "Loaded ✅";
             }
             catch (Exception ex)
             {

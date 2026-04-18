@@ -1,6 +1,9 @@
-﻿using System;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using Project_WPF.Models;
 
-public class Class1
+namespace Project_WPF.Services
 {
     public class CachedVideoApi : IVideoApi
     {

@@ -4,7 +4,6 @@ using System.Windows.Input;
 
 namespace Project_WPF.Mvvm
 {
-    // Simple command for buttons.
     public class RelayCommand : ICommand
     {
         private readonly Action _run;
@@ -35,7 +34,6 @@ namespace Project_WPF.Mvvm
                 _run();
                 return;
             }
-
             if (_runAsync != null)
                 await _runAsync();
         }

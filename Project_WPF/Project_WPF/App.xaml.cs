@@ -1,8 +1,8 @@
-﻿using System;
+﻿using System.Windows;
 
-public class Class1
+namespace Project_WPF
 {
-	public Class1()
-	{
-	}
+    public partial class App : Application
+    {
+    }
 }

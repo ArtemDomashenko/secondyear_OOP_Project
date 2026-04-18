@@ -1,6 +1,9 @@
-﻿using System;
+using System;
+using System.IO;
+using System.Text.Json;
+using Project_WPF.Models;
 
-public class Class1
+namespace Project_WPF.Services
 {
     public static class SettingsService
     {
@@ -17,9 +20,7 @@ public class Class1
                     if (s != null) return s;
                 }
             }
-            catch
-            {
-            }
+            catch { }
 
             var settings = new AppSettings();
             Save(settings);
@@ -30,12 +31,11 @@ public class Class1
         {
             try
             {
-                var json = JsonSerializer.Serialize(settings, new JsonSerializerOptions { WriteIndented = true });
+                var json = JsonSerializer.Serialize(settings,
+                    new JsonSerializerOptions { WriteIndented = true });
                 File.WriteAllText(FileName, json);
             }
-            catch (Exception)
-            {
-            }
+            catch (Exception) { }
         }
     }
 }
