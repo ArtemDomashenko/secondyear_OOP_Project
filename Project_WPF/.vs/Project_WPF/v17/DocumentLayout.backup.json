@@ -3,32 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\project_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|solutionrelative:project_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\App.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|solutionrelative:Project_WPF\\App.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|c:\\users\\qarte\\onedrive - atlantic tu\\documents\\github\\secondyear_oop_project\\project_wpf\\project_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|solutionrelative:project_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|c:\\users\\qarte\\onedrive - atlantic tu\\documents\\github\\secondyear_oop_project\\project_wpf\\project_wpf\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|solutionrelative:project_wpf\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\project_wpf\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|solutionrelative:project_wpf\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|c:\\users\\qarte\\onedrive - atlantic tu\\documents\\github\\secondyear_oop_project\\project_wpf\\project_wpf\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|solutionrelative:project_wpf\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|c:\\users\\qarte\\onedrive - atlantic tu\\documents\\github\\secondyear_oop_project\\project_wpf\\project_wpf\\properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|solutionrelative:project_wpf\\properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|c:\\users\\qarte\\onedrive - atlantic tu\\documents\\github\\secondyear_oop_project\\project_wpf\\project_wpf\\models\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|solutionrelative:project_wpf\\models\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|c:\\users\\qarte\\onedrive - atlantic tu\\documents\\github\\secondyear_oop_project\\project_wpf\\project_wpf\\models\\videoinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|solutionrelative:project_wpf\\models\\videoinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\project_wpf\\mvvm\\notifybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|solutionrelative:project_wpf\\mvvm\\notifybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\project_wpf\\mvvm\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|solutionrelative:project_wpf\\mvvm\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\project_wpf\\services\\cachedvideoapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|solutionrelative:project_wpf\\services\\cachedvideoapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|c:\\users\\qarte\\onedrive - atlantic tu\\documents\\github\\secondyear_oop_project\\project_wpf\\project_wpf\\services\\ivideoapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|solutionrelative:project_wpf\\services\\ivideoapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\project_wpf\\services\\rapidapiyoutube138api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|solutionrelative:project_wpf\\services\\rapidapiyoutube138api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|c:\\users\\qarte\\onedrive - atlantic tu\\documents\\github\\secondyear_oop_project\\project_wpf\\project_wpf\\services\\settingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|solutionrelative:project_wpf\\services\\settingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|c:\\users\\qarte\\onedrive - atlantic tu\\documents\\github\\secondyear_oop_project\\project_wpf\\project_wpf\\services\\youtubeurlparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|solutionrelative:project_wpf\\services\\youtubeurlparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\project_wpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|solutionrelative:project_wpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\project_wpf\\services\\cachedvideoapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|solutionrelative:project_wpf\\services\\cachedvideoapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\project_wpf\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|solutionrelative:project_wpf\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|c:\\users\\qarte\\onedrive - atlantic tu\\documents\\github\\secondyear_oop_project\\project_wpf\\project_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|solutionrelative:project_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\project_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|solutionrelative:project_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\project_wpf\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -36,14 +76,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Project_WPF||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\project_wpf\\mvvm\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|solutionrelative:project_wpf\\mvvm\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\project_wpf\\mvvm\\notifybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F036F95B-A2C8-4739-AE2F-849D6D0C5737}|Project_WPF\\Project_WPF.csproj|solutionrelative:project_wpf\\mvvm\\notifybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -60,25 +92,140 @@
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Resources.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\Properties\\Resources.Designer.cs",
+              "RelativeDocumentMoniker": "Project_WPF\\Properties\\Resources.Designer.cs",
+              "ToolTip": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\Properties\\Resources.Designer.cs",
+              "RelativeToolTip": "Project_WPF\\Properties\\Resources.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T13:45:55.705Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "Project_WPF\\Properties\\Settings.settings",
+              "ToolTip": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\Properties\\Settings.settings",
+              "RelativeToolTip": "Project_WPF\\Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2026-04-19T13:45:54.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Settings.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\Properties\\Settings.Designer.cs",
+              "RelativeDocumentMoniker": "Project_WPF\\Properties\\Settings.Designer.cs",
+              "ToolTip": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\Properties\\Settings.Designer.cs",
+              "RelativeToolTip": "Project_WPF\\Properties\\Settings.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T13:45:53.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\Models\\AppSettings.cs",
+              "RelativeDocumentMoniker": "Project_WPF\\Models\\AppSettings.cs",
+              "ToolTip": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\Models\\AppSettings.cs",
+              "RelativeToolTip": "Project_WPF\\Models\\AppSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T13:45:50.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VideoInfo.cs",
+              "DocumentMoniker": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\Models\\VideoInfo.cs",
+              "RelativeDocumentMoniker": "Project_WPF\\Models\\VideoInfo.cs",
+              "ToolTip": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\Models\\VideoInfo.cs",
+              "RelativeToolTip": "Project_WPF\\Models\\VideoInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T13:45:49.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IVideoApi.cs",
+              "DocumentMoniker": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\Services\\IVideoApi.cs",
+              "RelativeDocumentMoniker": "Project_WPF\\Services\\IVideoApi.cs",
+              "ToolTip": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\Services\\IVideoApi.cs",
+              "RelativeToolTip": "Project_WPF\\Services\\IVideoApi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T13:45:33.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SettingsService.cs",
+              "DocumentMoniker": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\Services\\SettingsService.cs",
+              "RelativeDocumentMoniker": "Project_WPF\\Services\\SettingsService.cs",
+              "ToolTip": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\Services\\SettingsService.cs",
+              "RelativeToolTip": "Project_WPF\\Services\\SettingsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T13:45:32.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "YouTubeUrlParser.cs",
+              "DocumentMoniker": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\Services\\YouTubeUrlParser.cs",
+              "RelativeDocumentMoniker": "Project_WPF\\Services\\YouTubeUrlParser.cs",
+              "ToolTip": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\Services\\YouTubeUrlParser.cs",
+              "RelativeToolTip": "Project_WPF\\Services\\YouTubeUrlParser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T13:45:27.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Project_WPF\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\MainWindow.xaml.cs",
               "RelativeToolTip": "Project_WPF\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-23T01:07:47.851Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\App.xaml",
+              "RelativeDocumentMoniker": "Project_WPF\\App.xaml",
+              "ToolTip": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\App.xaml",
+              "RelativeToolTip": "Project_WPF\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-15T20:34:58.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "RapidApiYoutube138Api.cs",
               "DocumentMoniker": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\Services\\RapidApiYoutube138Api.cs",
               "RelativeDocumentMoniker": "Project_WPF\\Services\\RapidApiYoutube138Api.cs",
@@ -86,11 +233,12 @@
               "RelativeToolTip": "Project_WPF\\Services\\RapidApiYoutube138Api.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T22:49:58.538Z"
+              "WhenOpened": "2026-04-17T22:49:58.538Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "CachedVideoApi.cs",
               "DocumentMoniker": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\Services\\CachedVideoApi.cs",
               "RelativeDocumentMoniker": "Project_WPF\\Services\\CachedVideoApi.cs",
@@ -98,11 +246,12 @@
               "RelativeToolTip": "Project_WPF\\Services\\CachedVideoApi.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T22:49:12.589Z"
+              "WhenOpened": "2026-04-17T22:49:12.589Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\Properties\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "Project_WPF\\Properties\\AssemblyInfo.cs",
@@ -114,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "NotifyBase.cs",
               "DocumentMoniker": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\Mvvm\\NotifyBase.cs",
               "RelativeDocumentMoniker": "Project_WPF\\Mvvm\\NotifyBase.cs",
@@ -122,11 +271,12 @@
               "RelativeToolTip": "Project_WPF\\Mvvm\\NotifyBase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T21:05:23.369Z"
+              "WhenOpened": "2026-02-15T21:05:23.369Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\App.xaml.cs",
               "RelativeDocumentMoniker": "Project_WPF\\App.xaml.cs",
@@ -134,23 +284,12 @@
               "RelativeToolTip": "Project_WPF\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T22:23:04.875Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\App.xaml",
-              "RelativeDocumentMoniker": "Project_WPF\\App.xaml",
-              "ToolTip": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\App.xaml",
-              "RelativeToolTip": "Project_WPF\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-15T20:34:58.785Z",
+              "WhenOpened": "2026-04-17T22:23:04.875Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "RelayCommand.cs",
               "DocumentMoniker": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\Mvvm\\RelayCommand.cs",
               "RelativeDocumentMoniker": "Project_WPF\\Mvvm\\RelayCommand.cs",
@@ -158,11 +297,12 @@
               "RelativeToolTip": "Project_WPF\\Mvvm\\RelayCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T21:05:37.904Z"
+              "WhenOpened": "2026-02-15T21:05:37.904Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 16,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Project_WPF\\MainWindow.xaml",
@@ -174,20 +314,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\MainViewModel.cs",
               "RelativeDocumentMoniker": "Project_WPF\\MainViewModel.cs",
               "ToolTip": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\MainViewModel.cs",
               "RelativeToolTip": "Project_WPF\\MainViewModel.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAQwBoAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-23T01:06:37.592Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "Project_WPF",
               "DocumentMoniker": "C:\\Users\\qarte\\OneDrive - Atlantic TU\\Documents\\GitHub\\secondyear_OOP_Project\\Project_WPF\\Project_WPF\\Project_WPF.csproj",
               "RelativeDocumentMoniker": "Project_WPF\\Project_WPF.csproj",
