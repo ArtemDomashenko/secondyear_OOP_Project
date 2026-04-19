@@ -45,6 +45,13 @@ namespace Project_WPF
         private string _status = "Enter a YouTube URL and click Analyze.";
         public string Status { get { return _status; } set { Set(ref _status, value); } }
 
+        private bool _isBusy;
+        public bool IsBusy
+        {
+            get { return _isBusy; }
+            set { Set(ref _isBusy, value); AnalyzeCommand.RaiseCanExecuteChanged(); }
+        }
+
         private VideoInfo _lastResult;
         public VideoInfo LastResult { get { return _lastResult; } set { Set(ref _lastResult, value); } }
 
@@ -54,6 +61,34 @@ namespace Project_WPF
 
         private VideoInfo _selected;
         public VideoInfo Selected { get { return _selected; } set { Set(ref _selected, value); } }
+
+       
+        private string _searchText = "";
+        public string SearchText
+        {
+            get { return _searchText; }
+            set { Set(ref _searchText, value); RefreshFilter(); }
+        }
+
+        public ObservableCollection<VideoInfo> FilteredItems { get; private set; }
+
+        private void RefreshFilter()
+        {
+            FilteredItems.Clear();
+            foreach (var v in Items)
+            {
+                if (string.IsNullOrWhiteSpace(SearchText) ||
+                    v.Title.IndexOf(SearchText, StringComparison.OrdinalIgnoreCase) >= 0)
+                    FilteredItems.Add(v);
+            }
+        }
+
+        public void DeleteItem(VideoInfo video)
+        {
+            Items.Remove(video);
+            FilteredItems.Remove(video);
+            if (Selected == video) Selected = null;
+        }
 
         public MainViewModel()
         {
@@ -67,21 +102,23 @@ namespace Project_WPF
 
             _api = new CachedVideoApi(new RapidApiYoutube138Api(_settings));
 
-            Items = new ObservableCollection<VideoInfo>();
+            Items = new ObservableCollection<VideoInfo>();          
+            FilteredItems = new ObservableCollection<VideoInfo>();  
 
             SaveSettingsCommand = new RelayCommand(() =>
             {
                 SaveSettings();
-                Status = "Settings saved ✅";
+                Status = "Settings saved ";
             });
 
-            AnalyzeCommand = new RelayCommand(AnalyzeAsync);
+            AnalyzeCommand = new RelayCommand(AnalyzeAsync, () => !IsBusy);
         }
 
         private async Task AnalyzeAsync()
         {
             try
             {
+                IsBusy = true;
                 Status = "Calling RapidAPI...";
                 SaveSettings();
 
@@ -91,14 +128,24 @@ namespace Project_WPF
                 info.VideoId = videoId;
 
                 LastResult = info;
-                Items.Insert(0, info);
-                Selected = info;
 
-                Status = "Loaded ✅";
+                bool exists = false;
+                foreach (var v in Items)
+                    if (v.VideoId == videoId) { exists = true; break; }
+
+                if (!exists) Items.Insert(0, info);
+                RefreshFilter();  
+
+                Selected = info;
+                Status = "Loaded ";
             }
             catch (Exception ex)
             {
                 Status = "Error: " + ex.Message;
+            }
+            finally
+            {
+                IsBusy = false;
             }
         }
     }
